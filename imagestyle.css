@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+div {
+    background-color: #FFDDAB;
+}
+
+.title-section {
+    text-align: center;
+    border-bottom: 3px solid blueviolet;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+
+}
+
+.title {
+    padding: 10px;
+    margin: 5px;
+
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+}
+
+
+
+.image-container__img {
+
+
+    border-style: solid;
+    border-color: black;
+    height: 302px;
+    width: 202px;
+    padding: 5px;
+    margin: 10px;
+
+
+}
+
+.highlight {
+    transition: 0.3s ease-in-out;
+
+}
+
+.highlight:hover {
+    filter: brightness(1);
+    transform: scale(1.1);
+}
